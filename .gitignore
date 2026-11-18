@@ -1,0 +1,8 @@
+# C# / .NET artefacts de build
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+.DS_Store
