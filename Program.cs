@@ -1,10 +1,9 @@
 using System;
 
-namespace TC1A_TP3
+namespace RetroArcade
 {
-    // TP3.2 - Borne d'Arcade BTS SIO
-    // Auteur : Tom Vernier-Fétu
-    internal class TP3_2_Arcade
+    // Borne d'arcade console multijeux en C#
+    internal class ArcadeConsole
     {
         // Variables globales du joueur et du score
         static string pseudoJoueur = "Joueur";
@@ -293,10 +292,7 @@ namespace TC1A_TP3
             Console.WriteLine("\nAppuyez sur une touche pour revenir à la borne...");
             Console.ReadKey(true);
         }
-
-        // ---------------------------------------------------------------------
         // JEU 4 : LA QUÊTE (SURVIVAL QUEST - 10 étapes, Vie 100, Nourriture 10, Pièces 20)
-        // ---------------------------------------------------------------------
         static void Jeu4_LaQuete()
         {
             Console.Clear();
@@ -516,10 +512,7 @@ namespace TC1A_TP3
             Console.WriteLine("\nAppuyez sur une touche pour revenir à la borne...");
             Console.ReadKey(true);
         }
-
-        // ---------------------------------------------------------------------
         // JEU 5 : LA MACHINE A SOUS (100 pièces, mise, 3 chiffres 1 à 9, score = pièces / 2)
-        // ---------------------------------------------------------------------
         static void Jeu5_MachineASous()
         {
             Console.Clear();
@@ -614,13 +607,10 @@ namespace TC1A_TP3
             Console.WriteLine("\nAppuyez sur une touche pour revenir à la borne...");
             Console.ReadKey(true);
         }
-
-        // ---------------------------------------------------------------------
         // MENU PRINCIPAL DE LA BORNE D'ARCADE
-        // ---------------------------------------------------------------------
         static void Main(string[] args)
         {
-            Console.Title = "ARCADE BTS SIO - BORNE MULTIJEUX";
+            Console.Title = "RETRO ARCADE CONSOLE";
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Bonjour et bienvenue dans notre console de jeux !");
             Console.ResetColor();
