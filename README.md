@@ -2,7 +2,7 @@
 
 Une borne d'arcade rétro interactive développée en **C# (.NET)** en mode console. Le joueur choisit son pseudo, navigue dans un menu interactif et cumule des points à travers 5 mini-jeux aux logiques algorithmiques distinctes.
 
-Projet d'algorithmique et de programmation structurée réalisé dans le cadre de ma formation en développement logiciel (BTS SIO).
+Projet d'algorithmique et de programmation structurée réalisé en C# (.NET).
 
 ---
 

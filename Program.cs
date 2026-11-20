@@ -630,7 +630,7 @@ namespace RetroArcade
                 Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("****** " + pseudoJoueur + ", à quel jeu souhaites-tu jouer ? ******");
                 Console.WriteLine("========================================");
-                Console.WriteLine("            ARCADE BTS SIO              ");
+                Console.WriteLine("        RETRO ARCADE CONSOLE            ");
                 Console.WriteLine("========================================");
                 Console.ResetColor();
                 Console.WriteLine("1 - Le nombre mystère");
@@ -663,7 +663,7 @@ namespace RetroArcade
                         Console.ReadKey(true);
                         break;
                     case "0":
-                        Console.WriteLine("\nMerci d'avoir joué sur l'Arcade BTS SIO, à bientôt " + pseudoJoueur + " !");
+                        Console.WriteLine("\nMerci d'avoir joué sur Retro Arcade, à bientôt " + pseudoJoueur + " !");
                         break;
                     default:
                         Console.ForegroundColor = ConsoleColor.Red;
